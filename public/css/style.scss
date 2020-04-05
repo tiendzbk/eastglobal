@@ -11,33 +11,545 @@ $text-color-culture: #646464;
     }
 }
 
-.people-and-culture {
-    background-color: white;
-    &__title {
-        font-size: 80px;
-        color: $mainColor;
-        font-weight: bold;
+
+@mixin title-top-bottom-line($border-color) {
+    font-weight: bold;
         line-height: 1.3;
         text-transform: uppercase;
         .border-top-bottom {
             display: inline-block;
-            border-top: 4px solid $mainColor;
-            border-bottom: 4px solid $mainColor;
+            border-top: 4px solid $border-color;
+            border-bottom: 4px solid $border-color;
         }
+}
+
+.people-and-culture {
+    background-color: white;
+    .container {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    &__title {
+        font-size: 40px;
+        color: $mainColor;
+        @include title-top-bottom-line($mainColor)
     }
     &__text--hr {
         margin-top: 30px;
         color: $text-color-culture;
         p {
             margin-bottom: 20px;
-            font-size: 33px;
+            font-size: 25px;
         }
     }
     &__boxtext--blue {
         border: 4px solid $mainColor;
         padding: 48px;
-        font-size: 40px;
+        font-size: 25px;
         font-weight: bold;
         color: #3c3c3c;
+    }
+    &__text--no-box {
+        font-size: 25px;
+        color: rgb( 60, 60, 60 );
+        text-align: center;
+        margin-top: 37px;
+    }
+}
+
+  
+
+.principles {
+    background: $mainColor;
+    .container {
+        padding-top: 45px;
+        padding-bottom: 45px;
+    }
+    &__title {
+        font-size: 40px;
+        font-family: "Arial";
+        color: rgb( 255, 255, 255 );
+        text-transform: uppercase;
+        @include title-top-bottom-line(white);
+    }
+
+    &__content {
+        margin-top: 20px;
+        color: white;
+        font-size: 25px;
+    }
+}
+
+.valueable {
+    .container {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    &__title {
+        font-size: 40px;
+        color: $mainColor;
+        @include title-top-bottom-line($mainColor)
+    }
+
+    &__content {
+        font-size: 25px;
+        color: rgb( 100, 100, 100 );
+        margin-top: 40px;
+    }
+}
+
+.people {
+    .container {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    &__title {
+        color: white;
+        font-size: 40px;
+        padding: 50px 0px;
+        background: url('../img/our_people.jpg') no-repeat center center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        @include title-top-bottom-line(white);
+    }
+
+    &__content {
+        font-size: 25px;
+            font-family: "Arial";
+            color: rgb( 100, 100, 100 );
+        margin-top: 40px;
+    }
+
+    &__text--box {
+        border: 4px solid $mainColor;
+        padding: 48px;
+        font-size: 25px;
+        font-weight: bold;
+        color: #3c3c3c;
+        margin-top: 40px;
+    }
+}
+
+.mission_vision {
+    background: url('../img/mission_background.jpg')center center no-repeat;
+    background-position: top;
+    padding-top: 240px;
+    &__title {
+        background: $mainColor;
+        color: white;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        font-size: 40px;
+        text-transform: uppercase;
+        @include title-top-bottom-line(white);
+    }
+
+    .asia-market {
+        .dot-side-title {
+            font-size: 25px;
+            font-family: "Arial";
+            color: rgb( 100, 100, 100 );
+            text-transform: uppercase;
+            margin-top: 180px;
+        }
+        &__img {
+            margin-top: 40px;
+            img {
+                width: 100%;
+                object-fit: cover;
+            }
+        }
+        &__content {
+            font-size: 25px;
+            font-family: "Arial";
+            color: rgb( 100, 100, 100 );
+            margin-top: 40px;
+        }
+    }
+
+    .mission {
+        .dot-side-title {
+            font-size: 25px;
+            font-family: "Arial";
+            color: rgb( 100, 100, 100 );
+            text-transform: uppercase;
+            margin-top: 40px;
+        }
+        &__img {
+            margin-top: 40px;
+            img {
+                width: 100%;
+                object-fit: cover;
+            }
+        }
+        &__content {
+            font-size: 25px;
+            font-family: "Arial";
+            color: rgb( 100, 100, 100 );
+            margin-top: 40px;
+        }
+    }
+
+    .vision {
+        .dot-side-title {
+            font-size: 25px;
+            font-family: "Arial";
+            color: rgb( 100, 100, 100 );
+            text-transform: uppercase;
+            margin-top: 40px;
+        }
+        &__img {
+            margin-top: 40px;
+            img {
+                width: 100%;
+                object-fit: cover;
+            }
+        }
+        &__content {
+            font-size: 25px;
+            font-family: "Arial";
+            color: rgb( 100, 100, 100 );
+            margin-top: 40px;
+        }
+    }
+}
+
+.overview {
+    &__title {
+        color: white;
+        font-size: 40px;
+        padding: 50px 0px;
+        background: url('../img/overview.jpg') no-repeat center center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        @include title-top-bottom-line(white);
+    }
+
+    .overview__content {
+        background: url('../img/timeline-background1.jpg') center center no-repeat;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        .overview-timeline {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            padding-top: 140px;
+            .overview-timeline--left {
+                font-size: 30px;
+                font-family: "Arial";
+                color: rgb( 44, 44, 44 );
+                font-weight: bold;
+                text-align: left;
+                margin-right: 30px;               
+            }
+            .overview-timeline--right {
+                font-size: 30px;
+                font-family: "Arial";
+                color: rgb( 100, 100, 100 );
+                font-weight: bold;
+                p {
+                    position: absolute;
+                    margin-left: 30px;
+                    &:nth-child(1) {
+                        top: 110px;
+                    }
+                    &:nth-child(2) {
+                        top: 255px;
+                    }
+                    &:nth-child(3) {
+                        top: 375px;
+                    }
+                    &:nth-child(4) {
+                        top: 530px;
+                    }
+                }
+                  
+            }
+        }
+
+        .overview--text {
+            font-size: 25px;
+            font-family: "Arial";
+            color: rgb( 60, 60, 60 );
+            padding-top: 60px;
+            padding-bottom: 60px;
+        }
+    }
+}
+
+.development {
+    &__title {
+        color: white;
+        font-size: 40px;
+        padding: 50px 0px;
+        background: url('../img/development.png') no-repeat center center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        @include title-top-bottom-line(white);
+    }
+
+    &__text {
+        font-size: 25px;
+        font-family: "Arial";
+        color: rgb( 60, 60, 60 );
+        text-align: center;
+    }
+
+    .Infrastructure {
+        margin-top: 30px;
+        &__box-title {
+            background: url('../img/development-box-title.png') center center no-repeat;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+            color: white;
+            font-size: 25px;
+            padding-top: 20px;
+            text-align: center;
+            padding-bottom: 20px;
+        }
+        &__img {
+            margin-top: 10px;
+            img {
+                width: 100%;
+            }
+        }
+    }
+}
+
+.consultancy {
+    padding-top: 60px;
+    .container {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    &__title {
+        color: white;
+        font-size: 40px;
+        padding: 50px 0px;
+        background: url('../img/consultancy-background.jpg') no-repeat center center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        @include title-top-bottom-line(white);
+    }
+
+    &__content {
+        font-size: 25px;
+        font-family: "Arial";
+        color: rgb( 60, 60, 60 );
+        padding-top: 60px;
+    }
+}
+
+.capital {
+    &__title {
+        color: white;
+        font-size: 40px;
+        padding: 50px 0px;
+        background: url('../img/capital-background.jpg') no-repeat center center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        @include title-top-bottom-line(white);
+    }
+
+    &__text {
+        font-size: 25px;
+        font-family: "Arial";
+        color: rgb( 100, 100, 100 );
+        font-weight: bold;
+        padding-top: 40px;
+        text-align: center;          
+    }
+
+    &__box {
+        background: $mainColor;
+        padding: 15px;
+        box-sizing: border-box;
+        margin-top: 40px;
+        margin-left: 10px;
+        margin-right: 10px;
+        &:nth-child(1) {
+            margin-left: 0px;
+        }
+        &:nth-child(2) {
+            margin-right: 0px;
+        }
+        p {
+            color: white;
+            text-transform: uppercase;
+            font-size: 25px;
+        }
+    }
+
+    &__img {
+        img {
+            width: 100%;
+        }
+        padding-top: 30px;
+    }
+}
+
+.financials {
+    &__title {
+        color: white;
+        font-size: 40px;
+        padding: 50px 0px;
+        background: url('../img/finacials-background.png') no-repeat center center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        @include title-top-bottom-line(white);
+    }
+
+    &__box {
+        background: $mainColor;
+        padding: 20px;
+        margin: 40px 0px;
+        &:nth-child(1) {
+            margin-bottom: 20px;
+        }
+        color: white;
+        &__title {
+            font-size: 25px;
+            text-transform: uppercase;
+        }
+        &__text {
+            font-size: 15px;
+            text-transform: uppercase;
+        }
+
+        &__underline {
+            width: 50px;
+            height: 4px;
+            background: white;
+        }
+    }
+}
+
+.family {
+    &__title {
+        color: white;
+        font-size: 40px;
+        padding: 50px 0px;
+        background: url('../img/family-background.png') no-repeat center center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        @include title-top-bottom-line(white);
+    }
+
+    &__box {
+        margin-top: 60px;
+        border: 1px solid rgb( 100, 100, 100 );
+        &__img {
+            img {
+                width: 100%;
+                object-fit: cover;
+            }
+        }
+        &__text {
+            font-size: 25px;
+            padding: 40px;
+            color: rgb( 100, 100, 100 );
+        }
+    }
+}
+
+.club {
+    margin-top: 40px;
+    &__title {
+        color: white;
+        font-size: 40px;
+        padding: 50px 0px;
+        background: url('../img/club-background.png') no-repeat center center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        @include title-top-bottom-line(white);
+    }
+
+    &__text {
+        font-size: 25px;
+        padding: 40px;
+        color: rgb( 100, 100, 100 );
+    }
+    &__img {
+        padding-top: 40px;
+        img {
+            width: 100%;
+            object-fit: cover;
+        }
+    }
+}
+
+.east-golbal {
+    &__img {
+        img {
+            width: 100%;
+        }
+    }
+}
+
+.location {
+    .container {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    background: $mainColor;
+    &__title {
+        font-size: 35px;
+        font-family: "Arial";
+        color: rgb( 255, 255, 255 );
+        font-weight: bold;
+        text-transform: uppercase;
+        line-height: 1.272;
+        text-align: center;
+    }
+
+    &__box-office {
+        background: white;
+        color: $mainColor;
+        font-size: 25px;
+        padding: 0px 75px 0px 10px;
+        text-align: center;
+        display: inline-block;
+        margin-top: 40px;
+    }
+
+    &__info {
+        p {
+            color: white;
+            font-size: 25px;
+            margin-bottom: 0px;
+        }
+    }
+    &__icon {
+        padding-right: 20px;
+    }
+
+    .location__info__wrap {
+        margin-top: 35px;
+    }
+
+    .Qrcode {
+        padding-top: 30px;
     }
 }
