@@ -11,6 +11,26 @@ $text-color-culture: #646464;
     }
 }
 
+@mixin  hr-small($width) {
+    width: $width;
+    height: 5px;
+    background-color: rgb( 15, 154, 220 );      
+}
+
+.hr-small {
+    @include hr-small(33px);
+}
+
+.hr-row {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.hr-smallest {
+    @include hr-small(15px);
+    margin-left: 1px;
+}
+
 
 @mixin title-top-bottom-line($border-color) {
     font-weight: bold;
@@ -23,6 +43,32 @@ $text-color-culture: #646464;
         }
 }
 
+.menu {
+    nav.bg-light {
+        background: $mainColor!important;
+    }
+    .navbar-brand {
+        img {
+            transform: scale(0.6);
+        }
+    }
+
+    .navbar-nav {
+        .nav-item {
+            .nav-link {
+                padding-left: 1rem;
+                padding-right: 1rem;
+                color: white!important;
+                font-size: 14px;
+            }
+        }
+
+        .active {
+            border-bottom: 2px solid white;
+        }
+    }
+}
+
 .people-and-culture {
     background-color: white;
     .container {
@@ -30,7 +76,7 @@ $text-color-culture: #646464;
         padding-bottom: 40px;
     }
     &__title {
-        font-size: 40px;
+        font-size : 96px;
         color: $mainColor;
         @include title-top-bottom-line($mainColor)
     }
@@ -38,19 +84,19 @@ $text-color-culture: #646464;
         margin-top: 30px;
         color: $text-color-culture;
         p {
-            margin-bottom: 20px;
-            font-size: 25px;
+            margin-bottom: 13px;
+            font-size : 25px;
         }
     }
     &__boxtext--blue {
         border: 4px solid $mainColor;
-        padding: 48px;
-        font-size: 25px;
+        padding: 8px;
+        font-size : 30px;;
         font-weight: bold;
         color: #3c3c3c;
     }
     &__text--no-box {
-        font-size: 25px;
+        font-size : 25px;
         color: rgb( 60, 60, 60 );
         text-align: center;
         margin-top: 37px;
@@ -66,7 +112,7 @@ $text-color-culture: #646464;
         padding-bottom: 45px;
     }
     &__title {
-        font-size: 40px;
+        font-size : 40px;
         font-family: "Arial";
         color: rgb( 255, 255, 255 );
         text-transform: uppercase;
@@ -76,27 +122,32 @@ $text-color-culture: #646464;
     &__content {
         margin-top: 20px;
         color: white;
-        font-size: 25px;
+        font-size : 25px;
     }
 }
 
+
+
 .valueable {
     .container {
-        padding-top: 40px;
-        padding-bottom: 40px;
+        padding-top: 87px;
+        padding-bottom: 90px;
     }
     &__title {
-        font-size: 40px;
+        font-size : 40px;
         color: $mainColor;
         @include title-top-bottom-line($mainColor)
     }
 
     &__content {
-        font-size: 25px;
+        font-size : 20px;
         color: rgb( 100, 100, 100 );
         margin-top: 40px;
     }
 }
+
+
+  
 
 .people {
     .container {
@@ -106,7 +157,7 @@ $text-color-culture: #646464;
 
     &__title {
         color: white;
-        font-size: 40px;
+        font-size : 40px;
         padding: 50px 0px;
         background: url('../img/our_people.jpg') no-repeat center center;
         -webkit-background-size: cover;
@@ -117,43 +168,60 @@ $text-color-culture: #646464;
     }
 
     &__content {
-        font-size: 25px;
-            font-family: "Arial";
-            color: rgb( 100, 100, 100 );
+        font-size : 20px;;
+        font-family: "Arial";
+        color: rgb( 100, 100, 100 );
         margin-top: 40px;
     }
 
     &__text--box {
         border: 4px solid $mainColor;
-        padding: 48px;
-        font-size: 25px;
+        padding: 30px;
+        font-size : 25px;;
         font-weight: bold;
         color: #3c3c3c;
-        margin-top: 40px;
+        margin-top: 87px;
     }
 }
 
+
+
+  
+
 .mission_vision {
-    background: url('../img/mission_background.jpg')center center no-repeat;
+    background: url('../img/asian_market_background1.png')center center no-repeat;
     background-position: top;
-    padding-top: 240px;
+    padding-top: 1px;
     &__title {
-        background: $mainColor;
+        background: rgba(15, 154, 220, 0.8);
         color: white;
         padding-top: 50px;
         padding-bottom: 50px;
-        font-size: 40px;
+        font-size : 40px;
         text-transform: uppercase;
         @include title-top-bottom-line(white);
     }
 
     .asia-market {
         .dot-side-title {
-            font-size: 25px;
+            font-size: 35.555px;
             font-family: "Arial";
             color: rgb( 100, 100, 100 );
             text-transform: uppercase;
-            margin-top: 180px;
+            margin-top: 95px;
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            img {
+                &:nth-child(1) {
+                    margin-right: 25px;
+                }
+
+                &:nth-child(2) {
+                    margin-left: 25px;
+                }
+            }
         }
         &__img {
             margin-top: 40px;
@@ -162,8 +230,9 @@ $text-color-culture: #646464;
                 object-fit: cover;
             }
         }
+        
         &__content {
-            font-size: 25px;
+            font-size : 24px;
             font-family: "Arial";
             color: rgb( 100, 100, 100 );
             margin-top: 40px;
@@ -172,12 +241,27 @@ $text-color-culture: #646464;
 
     .mission {
         .dot-side-title {
-            font-size: 25px;
+            font-size: 35.555px;
             font-family: "Arial";
-            color: rgb( 100, 100, 100 );
+            color: rgb( 35, 34, 34 );
             text-transform: uppercase;
-            margin-top: 40px;
+            margin-top: 70px;
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            img {
+                &:nth-child(1) {
+                    margin-right: 25px;
+                }
+
+                &:nth-child(2) {
+                    margin-left: 25px;
+                }
+            }
+        
         }
+        
         &__img {
             margin-top: 40px;
             img {
@@ -186,7 +270,7 @@ $text-color-culture: #646464;
             }
         }
         &__content {
-            font-size: 25px;
+            font-size : 23px;
             font-family: "Arial";
             color: rgb( 100, 100, 100 );
             margin-top: 40px;
@@ -195,11 +279,23 @@ $text-color-culture: #646464;
 
     .vision {
         .dot-side-title {
-            font-size: 25px;
+            font-size : 35.555px;
             font-family: "Arial";
             color: rgb( 100, 100, 100 );
             text-transform: uppercase;
             margin-top: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            img {
+                &:nth-child(1) {
+                    margin-right: 25px;
+                }
+
+                &:nth-child(2) {
+                    margin-left: 25px;
+                }
+            }
         }
         &__img {
             margin-top: 40px;
@@ -209,7 +305,7 @@ $text-color-culture: #646464;
             }
         }
         &__content {
-            font-size: 25px;
+            font-size : 24px;
             font-family: "Arial";
             color: rgb( 100, 100, 100 );
             margin-top: 40px;
@@ -217,10 +313,12 @@ $text-color-culture: #646464;
     }
 }
 
+
+
 .overview {
     &__title {
         color: white;
-        font-size: 40px;
+        font-size : 40px;
         padding: 50px 0px;
         background: url('../img/overview.jpg') no-repeat center center;
         -webkit-background-size: cover;
@@ -276,7 +374,7 @@ $text-color-culture: #646464;
         }
 
         .overview--text {
-            font-size: 25px;
+            font-size : 16px;
             font-family: "Arial";
             color: rgb( 60, 60, 60 );
             padding-top: 60px;
@@ -288,7 +386,7 @@ $text-color-culture: #646464;
 .development {
     &__title {
         color: white;
-        font-size: 40px;
+        font-size : 40px;
         padding: 50px 0px;
         background: url('../img/development.png') no-repeat center center;
         -webkit-background-size: cover;
@@ -299,7 +397,7 @@ $text-color-culture: #646464;
     }
 
     &__text {
-        font-size: 25px;
+        font-size : 16px;
         font-family: "Arial";
         color: rgb( 60, 60, 60 );
         text-align: center;
@@ -314,7 +412,7 @@ $text-color-culture: #646464;
             -o-background-size: cover;
             background-size: cover;
             color: white;
-            font-size: 25px;
+            font-size : 16px;
             padding-top: 20px;
             text-align: center;
             padding-bottom: 20px;
@@ -336,7 +434,7 @@ $text-color-culture: #646464;
     }
     &__title {
         color: white;
-        font-size: 40px;
+        font-size : 40px;
         padding: 50px 0px;
         background: url('../img/consultancy-background.jpg') no-repeat center center;
         -webkit-background-size: cover;
@@ -347,7 +445,7 @@ $text-color-culture: #646464;
     }
 
     &__content {
-        font-size: 25px;
+        font-size : 16px;
         font-family: "Arial";
         color: rgb( 60, 60, 60 );
         padding-top: 60px;
@@ -357,7 +455,7 @@ $text-color-culture: #646464;
 .capital {
     &__title {
         color: white;
-        font-size: 40px;
+        font-size : 40px;
         padding: 50px 0px;
         background: url('../img/capital-background.jpg') no-repeat center center;
         -webkit-background-size: cover;
@@ -368,7 +466,7 @@ $text-color-culture: #646464;
     }
 
     &__text {
-        font-size: 25px;
+        font-size : 16px;
         font-family: "Arial";
         color: rgb( 100, 100, 100 );
         font-weight: bold;
@@ -392,7 +490,7 @@ $text-color-culture: #646464;
         p {
             color: white;
             text-transform: uppercase;
-            font-size: 25px;
+            font-size : 16px;
         }
     }
 
@@ -407,7 +505,7 @@ $text-color-culture: #646464;
 .financials {
     &__title {
         color: white;
-        font-size: 40px;
+        font-size : 40px;
         padding: 50px 0px;
         background: url('../img/finacials-background.png') no-repeat center center;
         -webkit-background-size: cover;
@@ -426,7 +524,7 @@ $text-color-culture: #646464;
         }
         color: white;
         &__title {
-            font-size: 25px;
+            font-size : 16px;
             text-transform: uppercase;
         }
         &__text {
@@ -445,7 +543,7 @@ $text-color-culture: #646464;
 .family {
     &__title {
         color: white;
-        font-size: 40px;
+        font-size : 40px;
         padding: 50px 0px;
         background: url('../img/family-background.png') no-repeat center center;
         -webkit-background-size: cover;
@@ -465,7 +563,7 @@ $text-color-culture: #646464;
             }
         }
         &__text {
-            font-size: 25px;
+            font-size : 16px;
             padding: 40px;
             color: rgb( 100, 100, 100 );
         }
@@ -476,7 +574,7 @@ $text-color-culture: #646464;
     margin-top: 40px;
     &__title {
         color: white;
-        font-size: 40px;
+        font-size : 40px;
         padding: 50px 0px;
         background: url('../img/club-background.png') no-repeat center center;
         -webkit-background-size: cover;
@@ -487,7 +585,7 @@ $text-color-culture: #646464;
     }
 
     &__text {
-        font-size: 25px;
+        font-size : 16px;
         padding: 40px;
         color: rgb( 100, 100, 100 );
     }
@@ -527,7 +625,7 @@ $text-color-culture: #646464;
     &__box-office {
         background: white;
         color: $mainColor;
-        font-size: 25px;
+        font-size : 16px;
         padding: 0px 75px 0px 10px;
         text-align: center;
         display: inline-block;
@@ -537,7 +635,7 @@ $text-color-culture: #646464;
     &__info {
         p {
             color: white;
-            font-size: 25px;
+            font-size : 16px;
             margin-bottom: 0px;
         }
     }
@@ -553,3 +651,47 @@ $text-color-culture: #646464;
         padding-top: 30px;
     }
 }
+
+.footer {
+    background: $mainColor;
+    margin-top: 60px;
+    .container {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    a {
+        text-decoration: none;
+    }
+
+    &__title {
+        color: white;
+        font-size:  15px;
+        font-weight: bold;
+        padding-bottom: 20px;
+        cursor: pointer;
+        &:hover {
+            color: #333;
+        }
+    }
+
+    &__wrap-link {
+        padding-left: 0px;
+    }
+
+    &__item {
+        list-style: none;
+        margin-bottom: 10px;
+    }
+
+    &__link {
+        text-decoration: none;
+        color: white;
+        font-size: 14px;
+        &:hover {
+            color: #333;
+        }
+    }
+}
+
+  
+  

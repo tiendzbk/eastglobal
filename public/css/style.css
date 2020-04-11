@@ -8,6 +8,44 @@ body {
      object-fit: cover;
 }
 
+.hr-small {
+  width: 33px;
+  height: 5px;
+  background-color: #0f9adc;
+}
+
+.hr-row {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.hr-smallest {
+  width: 15px;
+  height: 5px;
+  background-color: #0f9adc;
+  margin-left: 1px;
+}
+
+.menu nav.bg-light {
+  background: #0f9adc !important;
+}
+
+.menu .navbar-brand img {
+  -webkit-transform: scale(0.6);
+          transform: scale(0.6);
+}
+
+.menu .navbar-nav .nav-item .nav-link {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  color: white !important;
+  font-size: 14px;
+}
+
+.menu .navbar-nav .active {
+  border-bottom: 2px solid white;
+}
+
 .people-and-culture {
   background-color: white;
 }
@@ -18,7 +56,7 @@ body {
 }
 
 .people-and-culture__title {
-  font-size: 40px;
+  font-size: 96px;
   color: #0f9adc;
   font-weight: bold;
   line-height: 1.3;
@@ -37,14 +75,14 @@ body {
 }
 
 .people-and-culture__text--hr p {
-  margin-bottom: 20px;
+  margin-bottom: 13px;
   font-size: 25px;
 }
 
 .people-and-culture__boxtext--blue {
   border: 4px solid #0f9adc;
-  padding: 48px;
-  font-size: 25px;
+  padding: 8px;
+  font-size: 30px;
   font-weight: bold;
   color: #3c3c3c;
 }
@@ -88,8 +126,8 @@ body {
 }
 
 .valueable .container {
-  padding-top: 40px;
-  padding-bottom: 40px;
+  padding-top: 87px;
+  padding-bottom: 90px;
 }
 
 .valueable__title {
@@ -107,7 +145,7 @@ body {
 }
 
 .valueable__content {
-  font-size: 25px;
+  font-size: 20px;
   color: #646464;
   margin-top: 40px;
 }
@@ -135,7 +173,7 @@ body {
 }
 
 .people__content {
-  font-size: 25px;
+  font-size: 20px;
   font-family: "Arial";
   color: #646464;
   margin-top: 40px;
@@ -143,21 +181,21 @@ body {
 
 .people__text--box {
   border: 4px solid #0f9adc;
-  padding: 48px;
+  padding: 30px;
   font-size: 25px;
   font-weight: bold;
   color: #3c3c3c;
-  margin-top: 40px;
+  margin-top: 87px;
 }
 
 .mission_vision {
-  background: url("../img/mission_background.jpg") center center no-repeat;
+  background: url("../img/asian_market_background1.png") center center no-repeat;
   background-position: top;
-  padding-top: 240px;
+  padding-top: 1px;
 }
 
 .mission_vision__title {
-  background: #0f9adc;
+  background: rgba(15, 154, 220, 0.8);
   color: white;
   padding-top: 50px;
   padding-bottom: 50px;
@@ -175,11 +213,29 @@ body {
 }
 
 .mission_vision .asia-market .dot-side-title {
-  font-size: 25px;
+  font-size: 35.555px;
   font-family: "Arial";
   color: #646464;
   text-transform: uppercase;
-  margin-top: 180px;
+  margin-top: 95px;
+  font-weight: bold;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.mission_vision .asia-market .dot-side-title img:nth-child(1) {
+  margin-right: 25px;
+}
+
+.mission_vision .asia-market .dot-side-title img:nth-child(2) {
+  margin-left: 25px;
 }
 
 .mission_vision .asia-market__img {
@@ -193,18 +249,36 @@ body {
 }
 
 .mission_vision .asia-market__content {
-  font-size: 25px;
+  font-size: 24px;
   font-family: "Arial";
   color: #646464;
   margin-top: 40px;
 }
 
 .mission_vision .mission .dot-side-title {
-  font-size: 25px;
+  font-size: 35.555px;
   font-family: "Arial";
-  color: #646464;
+  color: #232222;
   text-transform: uppercase;
-  margin-top: 40px;
+  margin-top: 70px;
+  font-weight: bold;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.mission_vision .mission .dot-side-title img:nth-child(1) {
+  margin-right: 25px;
+}
+
+.mission_vision .mission .dot-side-title img:nth-child(2) {
+  margin-left: 25px;
 }
 
 .mission_vision .mission__img {
@@ -218,18 +292,35 @@ body {
 }
 
 .mission_vision .mission__content {
-  font-size: 25px;
+  font-size: 23px;
   font-family: "Arial";
   color: #646464;
   margin-top: 40px;
 }
 
 .mission_vision .vision .dot-side-title {
-  font-size: 25px;
+  font-size: 35.555px;
   font-family: "Arial";
   color: #646464;
   text-transform: uppercase;
   margin-top: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.mission_vision .vision .dot-side-title img:nth-child(1) {
+  margin-right: 25px;
+}
+
+.mission_vision .vision .dot-side-title img:nth-child(2) {
+  margin-left: 25px;
 }
 
 .mission_vision .vision__img {
@@ -243,7 +334,7 @@ body {
 }
 
 .mission_vision .vision__content {
-  font-size: 25px;
+  font-size: 24px;
   font-family: "Arial";
   color: #646464;
   margin-top: 40px;
@@ -323,7 +414,7 @@ body {
 }
 
 .overview .overview__content .overview--text {
-  font-size: 25px;
+  font-size: 16px;
   font-family: "Arial";
   color: #3c3c3c;
   padding-top: 60px;
@@ -348,7 +439,7 @@ body {
 }
 
 .development__text {
-  font-size: 25px;
+  font-size: 16px;
   font-family: "Arial";
   color: #3c3c3c;
   text-align: center;
@@ -362,7 +453,7 @@ body {
   background: url("../img/development-box-title.png") center center no-repeat;
   background-size: cover;
   color: white;
-  font-size: 25px;
+  font-size: 16px;
   padding-top: 20px;
   text-align: center;
   padding-bottom: 20px;
@@ -403,7 +494,7 @@ body {
 }
 
 .consultancy__content {
-  font-size: 25px;
+  font-size: 16px;
   font-family: "Arial";
   color: #3c3c3c;
   padding-top: 60px;
@@ -427,7 +518,7 @@ body {
 }
 
 .capital__text {
-  font-size: 25px;
+  font-size: 16px;
   font-family: "Arial";
   color: #646464;
   font-weight: bold;
@@ -456,7 +547,7 @@ body {
 .capital__box p {
   color: white;
   text-transform: uppercase;
-  font-size: 25px;
+  font-size: 16px;
 }
 
 .capital__img {
@@ -496,7 +587,7 @@ body {
 }
 
 .financials__box__title {
-  font-size: 25px;
+  font-size: 16px;
   text-transform: uppercase;
 }
 
@@ -540,7 +631,7 @@ body {
 }
 
 .family__box__text {
-  font-size: 25px;
+  font-size: 16px;
   padding: 40px;
   color: #646464;
 }
@@ -567,7 +658,7 @@ body {
 }
 
 .club__text {
-  font-size: 25px;
+  font-size: 16px;
   padding: 40px;
   color: #646464;
 }
@@ -608,7 +699,7 @@ body {
 .location__box-office {
   background: white;
   color: #0f9adc;
-  font-size: 25px;
+  font-size: 16px;
   padding: 0px 75px 0px 10px;
   text-align: center;
   display: inline-block;
@@ -617,7 +708,7 @@ body {
 
 .location__info p {
   color: white;
-  font-size: 25px;
+  font-size: 16px;
   margin-bottom: 0px;
 }
 
@@ -631,5 +722,50 @@ body {
 
 .location .Qrcode {
   padding-top: 30px;
+}
+
+.footer {
+  background: #0f9adc;
+  margin-top: 60px;
+}
+
+.footer .container {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.footer a {
+  text-decoration: none;
+}
+
+.footer__title {
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  padding-bottom: 20px;
+  cursor: pointer;
+}
+
+.footer__title:hover {
+  color: #333;
+}
+
+.footer__wrap-link {
+  padding-left: 0px;
+}
+
+.footer__item {
+  list-style: none;
+  margin-bottom: 10px;
+}
+
+.footer__link {
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+}
+
+.footer__link:hover {
+  color: #333;
 }
 /*# sourceMappingURL=style.css.map */
