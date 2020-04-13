@@ -1736,9 +1736,104 @@ body {
 }
 
 .signature-event__text {
-  font-size: 18px;
+  font-size: 20px;
   font-family: "Arial";
   color: white;
   text-align: left;
+}
+
+.club-active {
+  margin-top: 60px;
+}
+
+.club-active__title {
+  color: white;
+  font-size: 40px;
+  padding: 50px 0px;
+  background: url("../img/club/activity.png") no-repeat center center;
+  background-size: cover;
+  text-align: center;
+  font-weight: bold;
+  line-height: 1.3;
+  text-transform: uppercase;
+}
+
+.club-active__title .border-top-bottom {
+  display: inline-block;
+  border-top: 4px solid white;
+  border-bottom: 4px solid white;
+}
+
+.club-active__text {
+  font-size: 20px;
+  font-family: "Arial";
+  color: #3e3e3e;
+  text-align: center;
+  margin-top: 60px;
+}
+
+.club-active__img {
+  width: 100%;
+}
+
+.club-active__img img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.club-active .row {
+  margin-top: 60px;
+}
+
+.club-exchange {
+  margin-top: 60px;
+}
+
+.club-exchange__title {
+  color: white;
+  font-size: 40px;
+  padding: 50px 0px;
+  background: url("../img/club/exchange.png") no-repeat center center;
+  background-size: cover;
+  text-align: center;
+  font-weight: bold;
+  line-height: 1.3;
+  text-transform: uppercase;
+}
+
+.club-exchange__title .border-top-bottom {
+  display: inline-block;
+  border-top: 4px solid white;
+  border-bottom: 4px solid white;
+}
+
+.membership {
+  margin-top: 60px;
+}
+
+.membership__title {
+  color: white;
+  font-size: 40px;
+  padding: 50px 0px;
+  background: url("../img/club/membership.png") no-repeat center center;
+  background-size: cover;
+  text-align: center;
+  font-weight: bold;
+  line-height: 1.3;
+  text-transform: uppercase;
+}
+
+.membership__title .border-top-bottom {
+  display: inline-block;
+  border-top: 4px solid white;
+  border-bottom: 4px solid white;
+}
+
+.membership__text {
+  font-size: 22px;
+  color: black;
+  font-weight: bold;
+  margin-top: 55px;
 }
 /*# sourceMappingURL=style.css.map */

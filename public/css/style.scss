@@ -11,10 +11,10 @@ $text-color-culture: #646464;
     }
 }
 
-@mixin  hr-small($width) {
+@mixin hr-small($width) {
     width: $width;
     height: 5px;
-    background-color: rgb( 15, 154, 220 );      
+    background-color: rgb( 15, 154, 220);
 }
 
 .hr-small {
@@ -31,16 +31,15 @@ $text-color-culture: #646464;
     margin-left: 1px;
 }
 
-
 @mixin title-top-bottom-line($border-color) {
     font-weight: bold;
-        line-height: 1.3;
-        text-transform: uppercase;
-        .border-top-bottom {
-            display: inline-block;
-            border-top: 4px solid $border-color;
-            border-bottom: 4px solid $border-color;
-        }
+    line-height: 1.3;
+    text-transform: uppercase;
+    .border-top-bottom {
+        display: inline-block;
+        border-top: 4px solid $border-color;
+        border-bottom: 4px solid $border-color;
+    }
 }
 
 .menu {
@@ -52,7 +51,6 @@ $text-color-culture: #646464;
             transform: scale(0.6);
         }
     }
-
     .navbar-nav {
         .nav-item {
             .nav-link {
@@ -62,7 +60,6 @@ $text-color-culture: #646464;
                 font-size: 14px;
             }
         }
-
         .active {
             border-bottom: 2px solid white;
         }
@@ -76,7 +73,7 @@ $text-color-culture: #646464;
         padding-bottom: 40px;
     }
     &__title {
-        font-size : 96px;
+        font-size: 96px;
         color: $mainColor;
         @include title-top-bottom-line($mainColor)
     }
@@ -85,25 +82,24 @@ $text-color-culture: #646464;
         color: $text-color-culture;
         p {
             margin-bottom: 13px;
-            font-size : 25px;
+            font-size: 25px;
         }
     }
     &__boxtext--blue {
         border: 4px solid $mainColor;
         padding: 8px;
-        font-size : 30px;;
+        font-size: 30px;
+        ;
         font-weight: bold;
         color: #3c3c3c;
     }
     &__text--no-box {
-        font-size : 25px;
-        color: rgb( 60, 60, 60 );
+        font-size: 25px;
+        color: rgb( 60, 60, 60);
         text-align: center;
         margin-top: 37px;
     }
 }
-
-  
 
 .principles {
     background: $mainColor;
@@ -112,21 +108,18 @@ $text-color-culture: #646464;
         padding-bottom: 45px;
     }
     &__title {
-        font-size : 40px;
+        font-size: 40px;
         font-family: "Arial";
-        color: rgb( 255, 255, 255 );
+        color: rgb( 255, 255, 255);
         text-transform: uppercase;
         @include title-top-bottom-line(white);
     }
-
     &__content {
         margin-top: 20px;
         color: white;
-        font-size : 25px;
+        font-size: 25px;
     }
 }
-
-
 
 .valueable {
     .container {
@@ -134,30 +127,25 @@ $text-color-culture: #646464;
         padding-bottom: 90px;
     }
     &__title {
-        font-size : 40px;
+        font-size: 40px;
         color: $mainColor;
         @include title-top-bottom-line($mainColor)
     }
-
     &__content {
-        font-size : 20px;
-        color: rgb( 100, 100, 100 );
+        font-size: 20px;
+        color: rgb( 100, 100, 100);
         margin-top: 40px;
     }
 }
-
-
-  
 
 .people {
     .container {
         padding-top: 40px;
         padding-bottom: 40px;
     }
-
     &__title {
         color: white;
-        font-size : 40px;
+        font-size: 40px;
         padding: 50px 0px;
         background: url('../img/our_people.jpg') no-repeat center center;
         -webkit-background-size: cover;
@@ -166,27 +154,23 @@ $text-color-culture: #646464;
         background-size: cover;
         @include title-top-bottom-line(white);
     }
-
     &__content {
-        font-size : 20px;;
+        font-size: 20px;
+        ;
         font-family: "Arial";
-        color: rgb( 100, 100, 100 );
+        color: rgb( 100, 100, 100);
         margin-top: 40px;
     }
-
     &__text--box {
         border: 4px solid $mainColor;
         padding: 30px;
-        font-size : 25px;;
+        font-size: 25px;
+        ;
         font-weight: bold;
         color: #3c3c3c;
         margin-top: 87px;
     }
 }
-
-
-
-  
 
 .mission_vision {
     background: url('../img/asian_market_background1.png')center center no-repeat;
@@ -197,16 +181,15 @@ $text-color-culture: #646464;
         color: white;
         padding-top: 50px;
         padding-bottom: 50px;
-        font-size : 40px;
+        font-size: 40px;
         text-transform: uppercase;
         @include title-top-bottom-line(white);
     }
-
     .asia-market {
         .dot-side-title {
             font-size: 35.555px;
             font-family: "Arial";
-            color: rgb( 100, 100, 100 );
+            color: rgb( 100, 100, 100);
             text-transform: uppercase;
             margin-top: 95px;
             font-weight: bold;
@@ -217,7 +200,6 @@ $text-color-culture: #646464;
                 &:nth-child(1) {
                     margin-right: 25px;
                 }
-
                 &:nth-child(2) {
                     margin-left: 25px;
                 }
@@ -230,20 +212,18 @@ $text-color-culture: #646464;
                 object-fit: cover;
             }
         }
-        
         &__content {
-            font-size : 24px;
+            font-size: 24px;
             font-family: "Arial";
-            color: rgb( 100, 100, 100 );
+            color: rgb( 100, 100, 100);
             margin-top: 40px;
         }
     }
-
     .mission {
         .dot-side-title {
             font-size: 35.555px;
             font-family: "Arial";
-            color: rgb( 35, 34, 34 );
+            color: rgb( 35, 34, 34);
             text-transform: uppercase;
             margin-top: 70px;
             font-weight: bold;
@@ -254,14 +234,11 @@ $text-color-culture: #646464;
                 &:nth-child(1) {
                     margin-right: 25px;
                 }
-
                 &:nth-child(2) {
                     margin-left: 25px;
                 }
             }
-        
         }
-        
         &__img {
             margin-top: 40px;
             img {
@@ -270,18 +247,17 @@ $text-color-culture: #646464;
             }
         }
         &__content {
-            font-size : 23px;
+            font-size: 23px;
             font-family: "Arial";
-            color: rgb( 100, 100, 100 );
+            color: rgb( 100, 100, 100);
             margin-top: 40px;
         }
     }
-
     .vision {
         .dot-side-title {
-            font-size : 35.555px;
+            font-size: 35.555px;
             font-family: "Arial";
-            color: rgb( 100, 100, 100 );
+            color: rgb( 100, 100, 100);
             text-transform: uppercase;
             margin-top: 40px;
             display: flex;
@@ -291,7 +267,6 @@ $text-color-culture: #646464;
                 &:nth-child(1) {
                     margin-right: 25px;
                 }
-
                 &:nth-child(2) {
                     margin-left: 25px;
                 }
@@ -305,20 +280,18 @@ $text-color-culture: #646464;
             }
         }
         &__content {
-            font-size : 24px;
+            font-size: 24px;
             font-family: "Arial";
-            color: rgb( 100, 100, 100 );
+            color: rgb( 100, 100, 100);
             margin-top: 40px;
         }
     }
 }
 
-
-
 .overview {
     &__title {
         color: white;
-        font-size : 40px;
+        font-size: 40px;
         padding: 50px 0px;
         background: url('../img/overview.jpg') no-repeat center center;
         -webkit-background-size: cover;
@@ -327,7 +300,6 @@ $text-color-culture: #646464;
         background-size: cover;
         @include title-top-bottom-line(white);
     }
-
     .overview__content {
         background: url('../img/timeline-background1.jpg') center center no-repeat;
         -webkit-background-size: cover;
@@ -343,15 +315,15 @@ $text-color-culture: #646464;
             .overview-timeline--left {
                 font-size: 30px;
                 font-family: "Arial";
-                color: rgb( 44, 44, 44 );
+                color: rgb( 44, 44, 44);
                 font-weight: bold;
                 text-align: left;
-                margin-right: 30px;               
+                margin-right: 30px;
             }
             .overview-timeline--right {
                 font-size: 30px;
                 font-family: "Arial";
-                color: rgb( 100, 100, 100 );
+                color: rgb( 100, 100, 100);
                 font-weight: bold;
                 p {
                     position: absolute;
@@ -369,14 +341,12 @@ $text-color-culture: #646464;
                         top: 530px;
                     }
                 }
-                  
             }
         }
-
         .overview--text {
-            font-size : 16px;
+            font-size: 16px;
             font-family: "Arial";
-            color: rgb( 60, 60, 60 );
+            color: rgb( 60, 60, 60);
             padding-top: 60px;
             padding-bottom: 60px;
         }
@@ -386,7 +356,7 @@ $text-color-culture: #646464;
 .development {
     &__title {
         color: white;
-        font-size : 40px;
+        font-size: 40px;
         padding: 50px 0px;
         background: url('../img/development.png') no-repeat center center;
         -webkit-background-size: cover;
@@ -395,14 +365,12 @@ $text-color-culture: #646464;
         background-size: cover;
         @include title-top-bottom-line(white);
     }
-
     &__text {
-        font-size : 16px;
+        font-size: 16px;
         font-family: "Arial";
-        color: rgb( 60, 60, 60 );
+        color: rgb( 60, 60, 60);
         text-align: center;
     }
-
     .Infrastructure {
         margin-top: 30px;
         &__box-title {
@@ -412,7 +380,7 @@ $text-color-culture: #646464;
             -o-background-size: cover;
             background-size: cover;
             color: white;
-            font-size : 16px;
+            font-size: 16px;
             padding-top: 20px;
             text-align: center;
             padding-bottom: 20px;
@@ -434,7 +402,7 @@ $text-color-culture: #646464;
     }
     &__title {
         color: white;
-        font-size : 40px;
+        font-size: 40px;
         padding: 50px 0px;
         background: url('../img/consultancy-background.jpg') no-repeat center center;
         -webkit-background-size: cover;
@@ -443,11 +411,10 @@ $text-color-culture: #646464;
         background-size: cover;
         @include title-top-bottom-line(white);
     }
-
     &__content {
-        font-size : 16px;
+        font-size: 16px;
         font-family: "Arial";
-        color: rgb( 60, 60, 60 );
+        color: rgb( 60, 60, 60);
         padding-top: 60px;
     }
 }
@@ -455,7 +422,7 @@ $text-color-culture: #646464;
 .capital {
     &__title {
         color: white;
-        font-size : 40px;
+        font-size: 40px;
         padding: 50px 0px;
         background: url('../img/capital-background.jpg') no-repeat center center;
         -webkit-background-size: cover;
@@ -464,16 +431,14 @@ $text-color-culture: #646464;
         background-size: cover;
         @include title-top-bottom-line(white);
     }
-
     &__text {
-        font-size : 16px;
+        font-size: 16px;
         font-family: "Arial";
-        color: rgb( 100, 100, 100 );
+        color: rgb( 100, 100, 100);
         font-weight: bold;
         padding-top: 40px;
-        text-align: center;          
+        text-align: center;
     }
-
     &__box {
         background: $mainColor;
         padding: 15px;
@@ -490,10 +455,9 @@ $text-color-culture: #646464;
         p {
             color: white;
             text-transform: uppercase;
-            font-size : 16px;
+            font-size: 16px;
         }
     }
-
     &__img {
         img {
             width: 100%;
@@ -505,7 +469,7 @@ $text-color-culture: #646464;
 .financials {
     &__title {
         color: white;
-        font-size : 40px;
+        font-size: 40px;
         padding: 50px 0px;
         background: url('../img/finacials-background.png') no-repeat center center;
         -webkit-background-size: cover;
@@ -514,7 +478,6 @@ $text-color-culture: #646464;
         background-size: cover;
         @include title-top-bottom-line(white);
     }
-
     &__box {
         background: $mainColor;
         padding: 20px;
@@ -524,14 +487,13 @@ $text-color-culture: #646464;
         }
         color: white;
         &__title {
-            font-size : 16px;
+            font-size: 16px;
             text-transform: uppercase;
         }
         &__text {
             font-size: 15px;
             text-transform: uppercase;
         }
-
         &__underline {
             width: 50px;
             height: 4px;
@@ -543,7 +505,7 @@ $text-color-culture: #646464;
 .family {
     &__title {
         color: white;
-        font-size : 40px;
+        font-size: 40px;
         padding: 50px 0px;
         background: url('../img/family-background.png') no-repeat center center;
         -webkit-background-size: cover;
@@ -552,10 +514,9 @@ $text-color-culture: #646464;
         background-size: cover;
         @include title-top-bottom-line(white);
     }
-
     &__box {
         margin-top: 60px;
-        border: 1px solid rgb( 100, 100, 100 );
+        border: 1px solid rgb( 100, 100, 100);
         &__img {
             img {
                 width: 100%;
@@ -563,9 +524,9 @@ $text-color-culture: #646464;
             }
         }
         &__text {
-            font-size : 16px;
+            font-size: 16px;
             padding: 40px;
-            color: rgb( 100, 100, 100 );
+            color: rgb( 100, 100, 100);
         }
     }
 }
@@ -574,7 +535,7 @@ $text-color-culture: #646464;
     margin-top: 40px;
     &__title {
         color: white;
-        font-size : 40px;
+        font-size: 40px;
         padding: 50px 0px;
         background: url('../img/club-background.png') no-repeat center center;
         -webkit-background-size: cover;
@@ -583,11 +544,10 @@ $text-color-culture: #646464;
         background-size: cover;
         @include title-top-bottom-line(white);
     }
-
     &__text {
-        font-size : 16px;
+        font-size: 16px;
         padding: 40px;
-        color: rgb( 100, 100, 100 );
+        color: rgb( 100, 100, 100);
     }
     &__img {
         padding-top: 40px;
@@ -615,38 +575,34 @@ $text-color-culture: #646464;
     &__title {
         font-size: 35px;
         font-family: "Arial";
-        color: rgb( 255, 255, 255 );
+        color: rgb( 255, 255, 255);
         font-weight: bold;
         text-transform: uppercase;
         line-height: 1.272;
         text-align: center;
     }
-
     &__box-office {
         background: white;
         color: $mainColor;
-        font-size : 16px;
+        font-size: 16px;
         padding: 0px 75px 0px 10px;
         text-align: center;
         display: inline-block;
         margin-top: 40px;
     }
-
     &__info {
         p {
             color: white;
-            font-size : 16px;
+            font-size: 16px;
             margin-bottom: 0px;
         }
     }
     &__icon {
         padding-right: 20px;
     }
-
     .location__info__wrap {
         margin-top: 35px;
     }
-
     .Qrcode {
         padding-top: 30px;
     }
@@ -662,10 +618,9 @@ $text-color-culture: #646464;
     a {
         text-decoration: none;
     }
-
     &__title {
         color: white;
-        font-size:  15px;
+        font-size: 15px;
         font-weight: bold;
         padding-bottom: 20px;
         cursor: pointer;
@@ -673,16 +628,13 @@ $text-color-culture: #646464;
             color: #333;
         }
     }
-
     &__wrap-link {
         padding-left: 0px;
     }
-
     &__item {
         list-style: none;
         margin-bottom: 10px;
     }
-
     &__link {
         text-decoration: none;
         color: white;
@@ -693,10 +645,7 @@ $text-color-culture: #646464;
     }
 }
 
-
 //CSS for contact page
-
-
 .banner-contact {
     position: relative;
     &__img {
@@ -705,8 +654,8 @@ $text-color-culture: #646464;
         }
     }
     &__title {
-        font-size : 40px;
-        background-color: rgba( 0, 13, 19 , 0.5);
+        font-size: 40px;
+        background-color: rgba( 0, 13, 19, 0.5);
         color: white;
         padding-top: 35px;
         padding-bottom: 35px;
@@ -724,40 +673,36 @@ $text-color-culture: #646464;
         padding-top: 110px;
         padding-bottom: 110px;
     }
-
     &__email {
         font-size: 30px;
         line-height: 0.83;
         margin-bottom: 110px;
     }
-
     &__row {
         display: flex;
         align-items: center;
         margin-bottom: 40px;
     }
-
     &__img {
         padding-right: 40px;
     }
     &__office {
         font-size: 27px;
-        color: rgb( 0, 0, 0 );
+        color: rgb( 0, 0, 0);
         line-height: 1.481;
         text-transform: capitalize;
         margin-bottom: 30px;
     }
-
     &__location {
         font-size: 18px;
-        color: rgb( 0, 0, 0 );
+        color: rgb( 0, 0, 0);
     }
 }
 
 .eg-career {
     &__title {
         color: white;
-        font-size : 40px;
+        font-size: 40px;
         padding: 50px 0px;
         background: url('../img/contact/carerr-title-background.png') no-repeat center center;
         -webkit-background-size: cover;
@@ -776,7 +721,7 @@ $text-color-culture: #646464;
         justify-content: center;
         font-size: 35px;
         font-family: "Arial";
-        color: rgb( 1, 0, 0 );
+        color: rgb( 1, 0, 0);
         line-height: 0.857;
         text-transform: capitalize;
         padding-top: 70px;
@@ -787,11 +732,12 @@ $text-color-culture: #646464;
         }
     }
 }
+
 .position-hr {
     width: 100%;
     height: 3px;
-    background: rgb( 0, 0, 0 );
-    margin-top : 15px
+    background: rgb( 0, 0, 0);
+    margin-top: 15px
 }
 
 .career-location {
@@ -805,36 +751,31 @@ $text-color-culture: #646464;
         background-size: cover;
         text-align: left;
         font-size: 25px;
-        color: rgb( 255, 254, 254 );
+        color: rgb( 255, 254, 254);
         line-height: 0.857;
     }
-
     &__position {
         margin-top: 45px;
         &-title {
             font-size: 18px;
-            color: rgb( 1, 0, 0 );
+            color: rgb( 1, 0, 0);
             line-height: 1.2;
             img {
                 padding-right: 18px;
             }
         }
-
         &-content {
             margin-top: 50px;
             display: flex;
             align-items: center;
             font-size: 18px;
             font-family: "Arial";
-            color: rgb( 66, 66, 66 );
+            color: rgb( 66, 66, 66);
             line-height: 1.629;
             img {
                 padding-right: 50px;
             }
         }
-
-          
-        
     }
 }
 
@@ -842,7 +783,7 @@ $text-color-culture: #646464;
     margin-top: 50px;
     &__title {
         color: white;
-        font-size : 40px;
+        font-size: 40px;
         padding: 50px 0px;
         background: url('../img/contact/partenr-title-background.png') no-repeat center center;
         -webkit-background-size: cover;
@@ -851,19 +792,16 @@ $text-color-culture: #646464;
         background-size: cover;
         @include title-top-bottom-line(white);
     }
-
     .row {
         margin-top: 35px;
         &:nth-child(1) {
             margin-top: 75px;
         }
     }
-
     &__box {
         height: 100%;
         border: 1px solid;
     }
-
     &__img {
         height: 265px;
         img {
@@ -880,24 +818,20 @@ $text-color-culture: #646464;
     }
     &__text {
         font-size: 20px;
-        color: rgb( 100, 100, 100 );
-        margin : 30px 0px;
+        color: rgb( 100, 100, 100);
+        margin: 30px 0px;
     }
-
     &__box {
         border-width: 4px;
-            border-color: rgb( 51, 169, 225 );
-            border-style: solid;
-
-            width: 600px;
-            margin: 0px auto 35px auto;
-            font-size: 25px;
-            font-family: "Arial";
-            color: rgb( 99, 99, 99 );
-            line-height: 1.847;
-          
+        border-color: rgb( 51, 169, 225);
+        border-style: solid;
+        width: 600px;
+        margin: 0px auto 35px auto;
+        font-size: 25px;
+        font-family: "Arial";
+        color: rgb( 99, 99, 99);
+        line-height: 1.847;
     }
-
     &__boximg {
         margin-top: 40px;
         position: relative;
@@ -911,9 +845,8 @@ $text-color-culture: #646464;
             width: 100%;
             color: white;
             font-weight: bold;
-            padding :  20px 0px;
-            background-color: rgba( 0, 17, 25 , 0.8);
-              
+            padding: 20px 0px;
+            background-color: rgba( 0, 17, 25, 0.8);
         }
     }
 }
@@ -922,7 +855,7 @@ $text-color-culture: #646464;
     margin-top: 60px;
     &__title {
         color: white;
-        font-size : 40px;
+        font-size: 40px;
         padding: 50px 0px;
         background: url('../img/capital/investment.png') no-repeat center center;
         -webkit-background-size: cover;
@@ -931,15 +864,13 @@ $text-color-culture: #646464;
         background-size: cover;
         @include title-top-bottom-line(white);
     }
-
     &__box--gray {
-        background-color: rgb( 238, 238, 238 );
+        background-color: rgb( 238, 238, 238);
         margin-top: 60px;
         .container {
             display: flex;
             align-items: center;
         }
-
         .investment__img {
             width: 50%;
             padding-right: 75px;
@@ -947,16 +878,14 @@ $text-color-culture: #646464;
                 width: 100%;
             }
         }
-
         .investment__text {
             text-align: left;
             font-size: 24px;
             font-family: "Arial";
-            color: rgb( 0, 0, 0 );
+            color: rgb( 0, 0, 0);
             font-weight: normal;
         }
     }
-
     .value-invest-real {
         &__title {
             text-align: center;
@@ -965,7 +894,7 @@ $text-color-culture: #646464;
             justify-content: center;
             font-size: 35px;
             font-family: "Arial";
-            color: rgb( 1, 0, 0 );
+            color: rgb( 1, 0, 0);
             line-height: 0.857;
             text-transform: capitalize;
             padding-top: 70px;
@@ -975,13 +904,11 @@ $text-color-culture: #646464;
                 transform: scale(0.6);
             }
         }
-
         &__box {
             width: 100%;
             height: 100%;
             position: relative;
         }
-
         &__img {
             img {
                 width: 100%;
@@ -990,13 +917,12 @@ $text-color-culture: #646464;
         .row {
             margin-top: 30px;
         }
-
         &__titlebox {
-            background-color: rgb( 255, 255, 255 );
+            background-color: rgb( 255, 255, 255);
             opacity: 0.702;
             font-size: 24px;
             font-family: "Arial";
-            color: rgb( 0, 0, 0 );
+            color: rgb( 0, 0, 0);
             line-height: 1.484;
             position: absolute;
             width: 100%;
@@ -1008,12 +934,11 @@ $text-color-culture: #646464;
     }
 }
 
-
 .value-invest-capital {
     margin-top: 50px;
     &__title {
         color: white;
-        font-size : 40px;
+        font-size: 40px;
         padding: 50px 0px;
         background: url('../img/capital/value-invest-4.png') no-repeat center center;
         -webkit-background-size: cover;
@@ -1022,19 +947,18 @@ $text-color-culture: #646464;
         background-size: cover;
         @include title-top-bottom-line(white);
     }
-
     &__text {
         font-size: 24px;
-            font-family: "Arial";
-            color: rgb( 52, 51, 51 );
+        font-family: "Arial";
+        color: rgb( 52, 51, 51);
         padding: 100px 0px;
     }
 }
 
-.invest-funds{
+.invest-funds {
     &__title {
         color: white;
-        font-size : 40px;
+        font-size: 40px;
         padding: 50px 0px;
         background: url('../img/capital/funds-title-background.png') no-repeat center center;
         -webkit-background-size: cover;
@@ -1043,7 +967,6 @@ $text-color-culture: #646464;
         background-size: cover;
         @include title-top-bottom-line(white);
     }
-
     .global-funds {
         &__wrap {
             position: relative;
@@ -1054,7 +977,6 @@ $text-color-culture: #646464;
                 width: 100%;
             }
         }
-
         &__text {
             display: flex;
             align-items: center;
@@ -1063,14 +985,13 @@ $text-color-culture: #646464;
             left: 55px;
             z-index: 1000;
             font-size: 24px;
-            color: rgb( 26, 26, 26 );
+            color: rgb( 26, 26, 26);
             line-height: 1.453;
             img {
                 padding-right: 40px;
             }
         }
     }
-
     .funds-rmb {
         .container {
             margin-top: 45px;
@@ -1080,15 +1001,13 @@ $text-color-culture: #646464;
                 width: 100%;
             }
         }
-
         &__text {
             margin-top: 15px;
             font-size: 24px;
-                color: rgb( 46, 46, 46 );
-                text-align: left;
+            color: rgb( 46, 46, 46);
+            text-align: left;
         }
     }
-
     .our-advantages {
         &__img {
             width: 100%;
@@ -1097,22 +1016,19 @@ $text-color-culture: #646464;
                 object-fit: cover;
             }
         }
-
         &__text {
             font-size: 24px;
             font-family: "Arial";
-            color: rgb( 6, 6, 6 );
+            color: rgb( 6, 6, 6);
             line-height: 1.676;
             padding-bottom: 15px;
             border-bottom: 2px solid black;
             padding-top: 50px;
         }
-
         .row {
             margin-top: 45px;
         }
     }
-
 }
 
 .global-funds {
@@ -1123,7 +1039,7 @@ $text-color-culture: #646464;
         justify-content: center;
         font-size: 35px;
         font-family: "Arial";
-        color: rgb( 1, 0, 0 );
+        color: rgb( 1, 0, 0);
         line-height: 0.857;
         text-transform: capitalize;
         padding-top: 70px;
@@ -1133,7 +1049,6 @@ $text-color-culture: #646464;
             transform: scale(0.6);
         }
     }
-
     .arrow {
         img {
             transform: scale(0.8);
@@ -1145,7 +1060,7 @@ $text-color-culture: #646464;
     margin-top: 60px;
     &__title {
         color: white;
-        font-size : 40px;
+        font-size: 40px;
         padding: 50px 0px;
         background: url('../img/capital/invest-principle.png') no-repeat center center;
         -webkit-background-size: cover;
@@ -1154,14 +1069,12 @@ $text-color-culture: #646464;
         background-size: cover;
         @include title-top-bottom-line(white);
     }
-
     &__img {
         margin-top: 60px;
         img {
             width: 100%;
         }
     }
-
     &__dotside {
         ul {
             text-align: center;
@@ -1170,20 +1083,24 @@ $text-color-culture: #646464;
             margin-top: 40px;
             li {
                 font-size: 22px;
-                    font-family: "Arial";
-                    color: rgb( 90, 90, 90 );
+                font-family: "Arial";
+                color: rgb( 90, 90, 90);
                 &::before {
-                    content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
-                    color: black; /* Change the color */
-                    font-weight: bold; /* If you want it to be bold */
-                    display: inline-block; /* Needed to add space between the bullet and the text */
-                    width: 1em; /* Also needed for space (tweak if needed) */
-                    margin-left: -1em; 
+                    content: "\2022";
+                    /* Add content: \2022 is the CSS Code/unicode for a bullet */
+                    color: black;
+                    /* Change the color */
+                    font-weight: bold;
+                    /* If you want it to be bold */
+                    display: inline-block;
+                    /* Needed to add space between the bullet and the text */
+                    width: 1em;
+                    /* Also needed for space (tweak if needed) */
+                    margin-left: -1em;
                 }
             }
         }
     }
-
     .subtainability {
         &__box {
             position: relative;
@@ -1195,31 +1112,27 @@ $text-color-culture: #646464;
                 object-fit: cover;
             }
         }
-
         &__text {
             font-size: 20px;
-                font-family: "Arial";
-                color: rgb( 6, 6, 6 );
-                line-height: 1.2;
-                text-align: center;
-                position: absolute;
-                background-color: white;
-                opacity: 0.702;
-                bottom: 0px;
-                width: 100%;
-                padding: 20px 0px;
+            font-family: "Arial";
+            color: rgb( 6, 6, 6);
+            line-height: 1.2;
+            text-align: center;
+            position: absolute;
+            background-color: white;
+            opacity: 0.702;
+            bottom: 0px;
+            width: 100%;
+            padding: 20px 0px;
         }
-
-
     }
 }
-
 
 .respon-invest {
     margin-top: 60px;
     &__title {
         color: white;
-        font-size : 40px;
+        font-size: 40px;
         padding: 50px 0px;
         background: url('../img/capital/respon-invest.png') no-repeat center center;
         -webkit-background-size: cover;
@@ -1228,14 +1141,12 @@ $text-color-culture: #646464;
         background-size: cover;
         @include title-top-bottom-line(white);
     }
-
     &__text {
         margin-top: 40px;
         font-size: 24px;
-            font-family: "Arial";
-            color: rgb( 90, 90, 90 );
+        font-family: "Arial";
+        color: rgb( 90, 90, 90);
     }
-
     &__box--first {
         position: relative;
         margin-top: 40px;
@@ -1246,7 +1157,6 @@ $text-color-culture: #646464;
                 object-fit: cover;
             }
         }
-
         &__boxtext {
             color: white;
             position: absolute;
@@ -1265,8 +1175,6 @@ $text-color-culture: #646464;
             }
         }
     }
-
-
     &__box {
         position: relative;
         margin-top: 40px;
@@ -1277,13 +1185,12 @@ $text-color-culture: #646464;
                 object-fit: cover;
             }
         }
-
         &__boxtext {
             color: white;
             position: absolute;
             bottom: 0px;
             width: 100%;
-            background-color: rgba( 15, 154, 220 , 0.7);
+            background-color: rgba( 15, 154, 220, 0.7);
             h2 {
                 display: flex;
                 align-items: center;
@@ -1299,7 +1206,6 @@ $text-color-culture: #646464;
             }
         }
     }
-
     .secutity__img {
         width: 100%;
         margin-top: 100px;
@@ -1315,7 +1221,7 @@ $text-color-culture: #646464;
     align-items: center;
     font-size: 25px;
     font-family: "Arial";
-    color: rgb( 79, 79, 79 );
+    color: rgb( 79, 79, 79);
     line-height: 1.797;
     text-align: center;
     margin-top: 40px;
@@ -1326,12 +1232,11 @@ $text-color-culture: #646464;
     }
 }
 
-
 .east-global-financials {
     margin-top: 60px;
     &__title {
         color: white;
-        font-size : 40px;
+        font-size: 40px;
         padding: 50px 0px;
         background: url('../img/capital/east-global-finacial.png') no-repeat center center;
         -webkit-background-size: cover;
@@ -1340,14 +1245,12 @@ $text-color-culture: #646464;
         background-size: cover;
         @include title-top-bottom-line(white);
     }
-
     &__text {
         margin-top: 60px;
         font-size: 24px;
         font-family: "Arial";
-        color: rgb( 6, 6, 6 );
+        color: rgb( 6, 6, 6);
         text-align: center;
-
         img {
             transform: scale(0.6);
         }
@@ -1362,7 +1265,6 @@ $text-color-culture: #646464;
             object-fit: cover;
         }
     }
-
     &__boxtext {
         // text-align: center;
         margin-top: 30px;
@@ -1370,71 +1272,65 @@ $text-color-culture: #646464;
         align-items: center;
         justify-content: center;
         font-size: 20px;
-            font-family: "Arial";
-            color: rgb( 50, 49, 49 );
+        font-family: "Arial";
+        color: rgb( 50, 49, 49);
         img {
             margin-right: 20px;
         }
     }
-
     .row {
         margin-top: 30px;
     }
-
 }
 
 //css for club
-
 .meaning-yuan-dong {
     &__content {
-        background-color: rgb( 224, 224, 224 );
+        background-color: rgb( 224, 224, 224);
         display: flex;
         align-items: center;
         margin-top: 80px;
     }
-
     &__text {
         font-size: 24px;
         font-family: "Arial";
-        color: rgb( 66, 66, 66 );
+        color: rgb( 66, 66, 66);
         margin-right: 100px;
     }
     .container {
         display: flex;
         align-items: center;
     }
-
     &__img {
-        padding : 80px 0px ;
+        padding: 80px 0px;
     }
 }
 
 .hr-black {
     height: 5px;
-    background-color: rgb( 0, 0, 0 );
+    background-color: rgb( 0, 0, 0);
     width: 62px;
     text-align: left;
-      margin-left: 0px;
-      margin-top: 50px;
+    margin-left: 0px;
+    margin-top: 50px;
 }
 
 .meaning-yuan-dong__mission {
     h2 {
         font-size: 25.09px;
-            font-family: "Arial";
-            color: rgb( 1, 0, 0 );
-            font-weight: 600;
-            margin-top: 40px;
+        font-family: "Arial";
+        color: rgb( 1, 0, 0);
+        font-weight: 600;
+        margin-top: 40px;
     }
-    p{
+    p {
         font-size: 18px;
         font-family: "Arial";
-        color: rgb( 66, 66, 66 );
+        color: rgb( 66, 66, 66);
         // text-align:justify!important;
         // text-justify: inter-word;
         margin-top: 40px;
     }
-
     img {
         margin-top: 60px;
         width: 100%;
@@ -1448,13 +1344,12 @@ $text-color-culture: #646464;
         color: white;
         padding-top: 50px;
         padding-bottom: 50px;
-        font-size : 40px;
+        font-size: 40px;
         text-transform: uppercase;
         text-align: center;
         margin-top: 80px;
         @include title-top-bottom-line(white);
     }
-
     &__arrow-down {
         width: 30px;
         height: 30px;
@@ -1465,7 +1360,6 @@ $text-color-culture: #646464;
             object-fit: cover;
         }
     }
-
     &__bat-quai {
         width: 680px;
         height: 680px;
@@ -1477,10 +1371,10 @@ $text-color-culture: #646464;
     }
 }
 
-.signature-event{
+.signature-event {
     &__title {
         color: white;
-        font-size : 40px;
+        font-size: 40px;
         padding: 50px 0px;
         background: url('../img/club/signature-title.png') no-repeat center center;
         text-align: center;
@@ -1490,7 +1384,6 @@ $text-color-culture: #646464;
         background-size: cover;
         @include title-top-bottom-line(white);
     }
-
     &__box-inline {
         background: $mainColor;
         // height: 500px;
@@ -1498,7 +1391,6 @@ $text-color-culture: #646464;
         align-items: center;
         margin-top: 25px;
     }
-
     &__img {
         width: 55%;
         margin-right: 80px;
@@ -1511,13 +1403,83 @@ $text-color-culture: #646464;
         display: flex;
         align-items: center;
     }
-
     &__text {
-        font-size: 18px;
-            font-family: "Arial";
-            color: rgb( 255, 255, 255 );
-            text-align: left;
-          
+        font-size: 20px;
+        font-family: "Arial";
+        color: rgb( 255, 255, 255);
+        text-align: left;
     }
 }
-  
+
+.club-active {
+    margin-top: 60px;
+    &__title {
+        color: white;
+        font-size: 40px;
+        padding: 50px 0px;
+        background: url('../img/club/activity.png') no-repeat center center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        text-align: center;
+        @include title-top-bottom-line(white);
+    }
+    &__text {
+        font-size: 20px;
+        font-family: "Arial";
+        color: rgb( 62, 62, 62);
+        text-align: center;
+        margin-top: 60px;
+    }
+    &__img {
+        width: 100%;
+        img {
+            width: 100%;
+            object-fit: cover;
+        }
+    }
+    .row {
+        margin-top: 60px;
+        ;
+    }
+}
+
+.club-exchange {
+    margin-top: 60px;
+    &__title {
+        color: white;
+        font-size: 40px;
+        padding: 50px 0px;
+        background: url('../img/club/exchange.png') no-repeat center center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        text-align: center;
+        @include title-top-bottom-line(white);
+    }
+}
+
+.membership {
+    margin-top: 60px;
+    &__title {
+        color: white;
+        font-size: 40px;
+        padding: 50px 0px;
+        background: url('../img/club/membership.png') no-repeat center center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        text-align: center;
+        @include title-top-bottom-line(white);
+    }
+    &__text {
+        font-size: 22px;
+        // font-family: "Arial";
+        color: rgb( 0, 0, 0);
+        font-weight: bold;
+        margin-top: 55px;
+    }
+}
