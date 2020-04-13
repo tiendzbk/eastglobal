@@ -1,5 +1,6 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    // font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial;
 }
 
 $mainColor: #0f9adc;
@@ -1481,5 +1482,123 @@ $text-color-culture: #646464;
         color: rgb( 0, 0, 0);
         font-weight: bold;
         margin-top: 55px;
+    }
+}
+
+//CSS for family
+.Wealth-Management-Industry {
+    &__title {
+        font-size: 24px;
+        color: rgb( 100, 100, 100);
+        line-height: 1.431;
+        text-align: center;
+        margin-top: 60px;
+    }
+    &__text {
+        font-size: 20px;
+        color: rgb( 100, 100, 100);
+        text-align: center;
+    }
+    &__img {
+        margin-top: 50px;
+        img {
+            width: 100%;
+            object-fit: cover;
+        }
+    }
+    &__arrow {
+        width: 30px;
+        height: 30px;
+        margin: 35px auto;
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+    &__question {
+        font-size: 22px;
+        font-family: "Arial";
+        color: #7a6b6b;
+        font-weight: bold;
+    }
+}
+
+.family-service {
+    &__title {
+        color: white;
+        font-size: 40px;
+        padding: 50px 0px;
+        background: url('../img/family/family-service.png') no-repeat center center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        text-align: center;
+        @include title-top-bottom-line(white);
+    }
+}
+
+.professional-team {
+    margin-top: 60px;
+    &__title {
+        color: white;
+        font-size: 40px;
+        padding: 50px 0px;
+        background: url('../img/family/profess-team.png') no-repeat center center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        text-align: center;
+        @include title-top-bottom-line(white);
+    }
+}
+
+.network-support {
+    margin-top: 60px;
+    &__title {
+        color: white;
+        font-size: 40px;
+        padding: 50px 0px;
+        background: url('../img/family/network.png') no-repeat center center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        text-align: center;
+        @include title-top-bottom-line(white);
+    }
+}
+
+.key-product {
+    margin-top: 60px;
+    &__title {
+        color: white;
+        font-size: 40px;
+        padding: 50px 0px;
+        background: url('../img/family/key-product.png') no-repeat center center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        text-align: center;
+        @include title-top-bottom-line(white);
+    }
+}
+
+.fo-mission {
+    margin-top: 60px;
+    &__title {
+        color: white;
+        font-size: 40px;
+        padding: 50px 0px;
+        background: url('../img/family/fo-mission.png') no-repeat center center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        text-align: center;
+        @include title-top-bottom-line(white);
     }
 }
