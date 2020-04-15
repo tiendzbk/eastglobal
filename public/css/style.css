@@ -1986,4 +1986,220 @@ body {
   border-top: 4px solid white;
   border-bottom: 4px solid white;
 }
+
+.develop-corp {
+  margin-top: 60px;
+}
+
+.develop-corp__title {
+  color: white;
+  font-size: 40px;
+  padding: 50px 0px;
+  background: url("../img/develop/corp.png") no-repeat center center;
+  background-size: cover;
+  text-align: center;
+  font-weight: bold;
+  line-height: 1.3;
+  text-transform: uppercase;
+}
+
+.develop-corp__title .border-top-bottom {
+  display: inline-block;
+  border-top: 4px solid white;
+  border-bottom: 4px solid white;
+}
+
+.power-infrastructure {
+  margin-top: 60px;
+}
+
+.power-infrastructure__title {
+  color: white;
+  font-size: 40px;
+  padding: 50px 0px;
+  background: url("../img/develop/power.png") no-repeat center center;
+  background-size: cover;
+  text-align: center;
+  font-weight: bold;
+  line-height: 1.3;
+  text-transform: uppercase;
+}
+
+.power-infrastructure__title .border-top-bottom {
+  display: inline-block;
+  border-top: 4px solid white;
+  border-bottom: 4px solid white;
+}
+
+.power-infrastructure__text {
+  font-size: 22px;
+  color: #646464;
+}
+
+.Urbanization {
+  margin-top: 60px;
+}
+
+.Urbanization__title {
+  color: white;
+  font-size: 40px;
+  padding: 50px 0px;
+  background: url("../img/develop/urban.png") no-repeat center center;
+  background-size: cover;
+  text-align: center;
+  font-weight: bold;
+  line-height: 1.3;
+  text-transform: uppercase;
+}
+
+.Urbanization__title .border-top-bottom {
+  display: inline-block;
+  border-top: 4px solid white;
+  border-bottom: 4px solid white;
+}
+
+.Business-Consultancy {
+  margin-top: 60px;
+}
+
+.Business-Consultancy__title {
+  color: white;
+  font-size: 40px;
+  padding: 50px 0px;
+  background: url("../img/develop/buss-colsult.png") no-repeat center center;
+  background-size: cover;
+  text-align: center;
+  font-weight: bold;
+  line-height: 1.3;
+  text-transform: uppercase;
+}
+
+.Business-Consultancy__title .border-top-bottom {
+  display: inline-block;
+  border-top: 4px solid white;
+  border-bottom: 4px solid white;
+}
+
+.Business-Consultancy__text {
+  color: #646464;
+  line-height: 1.4;
+  font-size: 22px;
+  margin: 80px 0px;
+}
+
+.Business-Consultancy__text p {
+  padding-left: 20px;
+  border-left: 15px solid #0f9adc;
+}
+
+.project-management {
+  margin-top: 60px;
+}
+
+.project-management__title {
+  color: white;
+  font-size: 40px;
+  padding: 50px 0px;
+  background: url("../img/develop/project.png") no-repeat center center;
+  background-size: cover;
+  text-align: center;
+  font-weight: bold;
+  line-height: 1.3;
+  text-transform: uppercase;
+}
+
+.project-management__title .border-top-bottom {
+  display: inline-block;
+  border-top: 4px solid white;
+  border-bottom: 4px solid white;
+}
+
+.project-fund {
+  margin-top: 60px;
+}
+
+.project-fund__title {
+  color: white;
+  font-size: 40px;
+  padding: 50px 0px;
+  background: url("../img/develop/fund.png") no-repeat center center;
+  background-size: cover;
+  text-align: center;
+  font-weight: bold;
+  line-height: 1.3;
+  text-transform: uppercase;
+}
+
+.project-fund__title .border-top-bottom {
+  display: inline-block;
+  border-top: 4px solid white;
+  border-bottom: 4px solid white;
+}
+
+.project-fund .project-fund-content__box {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.project-fund .project-fund-content__img {
+  width: 50%;
+  height: 100%;
+}
+
+.project-fund .project-fund-content__img img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.project-fund .project-fund-content__text {
+  width: 50%;
+  height: 100%;
+  font-size: 20px;
+  font-family: "Arial";
+  color: white;
+  text-align: left;
+  padding: auto;
+  background: #0f9adc;
+}
+
+.project-document {
+  margin-top: 60px;
+}
+
+.project-document__title {
+  color: white;
+  font-size: 40px;
+  padding: 50px 0px;
+  background: url("../img/develop/project-doc.png") no-repeat center center;
+  background-size: cover;
+  text-align: center;
+  font-weight: bold;
+  line-height: 1.3;
+  text-transform: uppercase;
+}
+
+.project-document__title .border-top-bottom {
+  display: inline-block;
+  border-top: 4px solid white;
+  border-bottom: 4px solid white;
+}
+
+.projet-doc-content {
+  margin-top: 70px;
+  background: url("../img/develop/project-doc-1.png") no-repeat center center;
+  background-size: cover;
+}
+
+.projet-doc-content .container {
+  padding: 80px 0px;
+}
+
+.projet-doc-content__text {
+  font-size: 25px;
+  color: white;
+  text-align: left;
+}
 /*# sourceMappingURL=style.css.map */

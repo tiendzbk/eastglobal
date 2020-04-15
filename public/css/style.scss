@@ -1602,3 +1602,171 @@ $text-color-culture: #646464;
         @include title-top-bottom-line(white);
     }
 }
+
+//CSS for development
+.develop-corp {
+    margin-top: 60px;
+    &__title {
+        color: white;
+        font-size: 40px;
+        padding: 50px 0px;
+        background: url('../img/develop/corp.png') no-repeat center center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        text-align: center;
+        @include title-top-bottom-line(white);
+    }
+}
+
+.power-infrastructure {
+    margin-top: 60px;
+    &__title {
+        color: white;
+        font-size: 40px;
+        padding: 50px 0px;
+        background: url('../img/develop/power.png') no-repeat center center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        text-align: center;
+        @include title-top-bottom-line(white);
+    }
+    &__text {
+        font-size: 22px;
+        color: rgb( 100, 100, 100);
+    }
+}
+
+.Urbanization {
+    margin-top: 60px;
+    &__title {
+        color: white;
+        font-size: 40px;
+        padding: 50px 0px;
+        background: url('../img/develop/urban.png') no-repeat center center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        text-align: center;
+        @include title-top-bottom-line(white);
+    }
+}
+
+.Business-Consultancy {
+    margin-top: 60px;
+    &__title {
+        color: white;
+        font-size: 40px;
+        padding: 50px 0px;
+        background: url('../img/develop/buss-colsult.png') no-repeat center center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        text-align: center;
+        @include title-top-bottom-line(white);
+    }
+    &__text {
+        color: rgb( 100, 100, 100);
+        line-height: 1.4;
+        font-size: 22px;
+        margin: 80px 0px;
+        p {
+            padding-left: 20px;
+            border-left: 15px solid rgb( 15, 154, 220);
+        }
+    }
+}
+
+.project-management {
+    margin-top: 60px;
+    &__title {
+        color: white;
+        font-size: 40px;
+        padding: 50px 0px;
+        background: url('../img/develop/project.png') no-repeat center center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        text-align: center;
+        @include title-top-bottom-line(white);
+    }
+}
+
+.project-fund {
+    margin-top: 60px;
+    &__title {
+        color: white;
+        font-size: 40px;
+        padding: 50px 0px;
+        background: url('../img/develop/fund.png') no-repeat center center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        text-align: center;
+        @include title-top-bottom-line(white);
+    }
+    .project-fund-content {
+        &__box {
+            width: 100%;
+            display: flex;
+        }
+        &__img {
+            width: 50%;
+            height: 100%;
+            img {
+                width: 100%;
+                object-fit: cover;
+            }
+        }
+        &__text {
+            width: 50%;
+            height: 100%;
+            font-size: 20px;
+            font-family: "Arial";
+            color: white;
+            text-align: left;
+            padding: auto;
+            background: #0f9adc;
+        }
+    }
+}
+
+.project-document {
+    margin-top: 60px;
+    &__title {
+        color: white;
+        font-size: 40px;
+        padding: 50px 0px;
+        background: url('../img/develop/project-doc.png') no-repeat center center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        text-align: center;
+        @include title-top-bottom-line(white);
+    }
+}
+
+.projet-doc-content {
+    margin-top: 70px;
+    background: url('../img/develop/project-doc-1.png') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    .container {
+        padding: 80px 0px;
+    }
+    &__text {
+        font-size: 25px;
+        color: rgb( 255, 255, 255);
+        text-align: left;
+    }
+}
